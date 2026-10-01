@@ -1,7 +1,20 @@
 ﻿using System.ComponentModel;
 using System.Text;
 using Microsoft.Extensions.AI;
+using OpenAI;
 using OllamaSharp;
+using System.ClientModel;
+
+//Exercise 5: Swap the provider
+//OpenAPIClient
+// var clientOptions = new OpenAIClientOptions
+// {
+//     Endpoint = new Uri("http://localhost:11434/v1")
+// };
+// IChatClient client = new OpenAIClient( new ApiKeyCredential("ollama"), clientOptions)
+// .GetChatClient("llama3.2")
+// .AsIChatClient();
+
 
 IChatClient client = new OllamaApiClient(new Uri("http://localhost:11434"), "llama3.2");
 // var response = await client.GetResponseAsync("Explain Dependency Injection in one sentence");
@@ -70,6 +83,7 @@ static string GetCustomerName(int customerId)
             return "not found";
     }
 }
+
 
 // // See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
