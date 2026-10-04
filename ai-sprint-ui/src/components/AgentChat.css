@@ -1,0 +1,83 @@
+.agent-chat {
+    display: flex;
+    height: 100%;
+    font-family: system-ui, sans-serif;
+}
+
+.sessions {
+    width: 260px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+    border-right: 1px solid #e2e8f0;
+    background: #f8fafc;
+    overflow-y: auto;
+}
+
+.sessions ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.new-chat {
+    padding: 10px 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+.session {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+    text-align: left;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    color: #0f172a;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.session:hover {
+    background: #e2e8f0;
+}
+
+.session.active {
+    background: #dbeafe;
+    font-weight: 600;
+}
+
+/* the right pane reuses .chat / .messages / .composer from Chat.css */
+.agent-chat .chat {
+    flex: 1;
+    max-width: none;
+    min-width: 0;
+}
+
+.empty {
+    margin: auto;
+    color: #64748b;
+}
+
+.message.error {
+    align-self: flex-start;
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.message.thinking {
+    color: #64748b;
+    font-style: italic;
+}

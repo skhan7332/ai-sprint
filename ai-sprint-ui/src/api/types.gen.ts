@@ -4,6 +4,14 @@ export type ClientOptions = {
     baseUrl: 'http://localhost:5241/' | (string & {});
 };
 
+export type AgentChatRequestModel = {
+    message: string;
+};
+
+export type AgentChatResponseModel = {
+    reply: string;
+};
+
 export type ChatMessageDto = {
     role: string;
     content: string;
@@ -19,6 +27,24 @@ export type WeatherForecast = {
     temperatureF?: number;
     summary?: string | null;
 };
+
+export type PostApiAgentByConversationIdData = {
+    body: AgentChatRequestModel;
+    path: {
+        conversationId: string;
+    };
+    query?: never;
+    url: '/api/Agent/{conversationId}';
+};
+
+export type PostApiAgentByConversationIdResponses = {
+    /**
+     * OK
+     */
+    200: AgentChatResponseModel;
+};
+
+export type PostApiAgentByConversationIdResponse = PostApiAgentByConversationIdResponses[keyof PostApiAgentByConversationIdResponses];
 
 export type PostApiChatData = {
     body: ChatRequest;

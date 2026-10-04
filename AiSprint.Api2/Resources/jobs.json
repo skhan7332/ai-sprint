@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Senior .NET Developer",
+    "company": "Northwind Cloud",
+    "remote": true,
+    "skills": ["C#", "ASP.NET Core", "Entity Framework Core", "SQL Server", "Azure"],
+    "description": "Design and maintain high-traffic REST APIs for our SaaS billing platform. You'll own services end to end, from schema design to production monitoring. 5+ years of professional .NET experience required."
+  },
+  {
+    "id": 2,
+    "title": ".NET Backend Engineer",
+    "company": "Bluepeak Logistics",
+    "remote": false,
+    "skills": ["C#", ".NET 8", "RabbitMQ", "PostgreSQL", "Docker"],
+    "description": "Build event-driven microservices that track shipments across 40 warehouses. On-site in our Pune office, five days a week. 3+ years of backend experience."
+  },
+  {
+    "id": 3,
+    "title": "AI Engineer (.NET)",
+    "company": "Lumen Health",
+    "remote": true,
+    "skills": ["C#", "Microsoft.Extensions.AI", "Azure OpenAI", "Semantic Search", "ASP.NET Core"],
+    "description": "Integrate large language models into our clinical documentation product. Experience with RAG, prompt design and evaluating model output is a strong plus. 3+ years with .NET."
+  },
+  {
+    "id": 4,
+    "title": "Full Stack Developer (.NET + React)",
+    "company": "Tallyho Fintech",
+    "remote": false,
+    "skills": ["C#", "ASP.NET Core", "React", "TypeScript", "SQL Server"],
+    "description": "Work across the stack on our personal finance app: ASP.NET Core APIs on the back end and React with TypeScript on the front. Hybrid, 3 days a week in our Bangalore office."
+  },
+  {
+    "id": 5,
+    "title": "Senior Java Developer",
+    "company": "Ironbridge Bank",
+    "remote": false,
+    "skills": ["Java", "Spring Boot", "Kafka", "Oracle", "Microservices"],
+    "description": "Modernise core banking services by breaking a legacy monolith into Spring Boot microservices. On-site in Mumbai. 6+ years of Java experience, banking domain knowledge preferred."
+  },
+  {
+    "id": 6,
+    "title": "Java Backend Engineer",
+    "company": "Cartwheel Commerce",
+    "remote": true,
+    "skills": ["Java", "Spring Boot", "PostgreSQL", "Redis", "AWS"],
+    "description": "Scale the checkout and payments services of a fast-growing e-commerce marketplace. Fully remote within India. 3+ years building production Java services."
+  },
+  {
+    "id": 7,
+    "title": "Java Cloud Engineer",
+    "company": "Stratus Telecom",
+    "remote": true,
+    "skills": ["Java", "Quarkus", "Kubernetes", "GCP", "gRPC"],
+    "description": "Build cloud-native network management services running on Kubernetes. Remote-first team spread across three time zones. 4+ years of experience."
+  },
+  {
+    "id": 8,
+    "title": "React Frontend Developer",
+    "company": "Pixelgrove Studio",
+    "remote": true,
+    "skills": ["React", "TypeScript", "Vite", "CSS", "Jest"],
+    "description": "Craft fast, accessible interfaces for our design collaboration tool. You'll work closely with designers and care about every pixel. 2+ years with React."
+  },
+  {
+    "id": 9,
+    "title": "Junior React Developer",
+    "company": "Brightpath Learning",
+    "remote": false,
+    "skills": ["React", "JavaScript", "HTML", "CSS"],
+    "description": "Help build our online learning platform for school students. Freshers welcome, with mentoring from senior engineers. On-site in Hyderabad."
+  },
+  {
+    "id": 10,
+    "title": "Senior React Engineer",
+    "company": "Orbitly Analytics",
+    "remote": true,
+    "skills": ["React", "TypeScript", "Next.js", "GraphQL", "D3.js"],
+    "description": "Lead the front end of our analytics dashboards, from data-heavy charts to the design system. 5+ years of front-end experience, including 3+ with React."
+  }
+]

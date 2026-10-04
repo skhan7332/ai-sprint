@@ -1,7 +1,7 @@
 .chat {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     max-width: 760px;
     margin: 0 auto;
     font-family: system-ui, sans-serif;
